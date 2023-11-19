@@ -1,0 +1,64 @@
+
+body {
+    background-size: cover;
+    background-position: center;
+    background-color: #242424;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Esto centra el contenido verticalmente */
+}
+
+#logear {
+    background-color: rgb(255, 255, 255);
+    max-width: 600px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgb(255, 255, 255);
+    display: flex;
+    flex-direction: row; /* Alinea los elementos en fila */
+}
+.left-column {
+    flex: 1; /* Ocupa el 50% del ancho */
+    padding: 20px;
+    text-align: center;
+}
+.right-column {
+    flex: 1; /* Ocupa el 50% del ancho */
+    padding: 20px;
+    text-align: center;
+}
+h1 {
+    text-align: center;
+    color: black;
+}
+label {
+    text-align: left;
+    display: block;
+    margin-bottom: 20px;
+}
+input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #cacaca;
+    border-radius: 5px;
+}
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.descripcion {
+  text-align: left;
+    margin-bottom: 20px;
+}
+.imagenreferencia {
+    max-width: 100%;
+    border-radius: 5px
+}

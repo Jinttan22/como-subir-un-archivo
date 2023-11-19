@@ -1,0 +1,60 @@
+body{
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
+}
+header{
+    background-color: white;
+    width: 25%;
+    border-top-right-radius: 15px;
+    align-items: center;
+}
+h2{
+    font-size: 300%;
+    align-items: center;
+}
+h3{
+    color: #2a644f;
+    font-size: 30px;
+}
+o{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+button{
+        font-size: 100%;
+}
+.Imagen{
+    width: 25%;
+    border-top-left-radius: 25px;
+}
+input{
+    padding: 8px;
+    width: 100%;
+    margin-bottom: 16px;
+}
+input[type="button"]{
+    background-color: #3D8168;
+    width: 100%;
+    border: none;
+    border-radius: 8px;
+    padding: 12px 4px;
+    color: #ffffff;
+    font-weight: bold;
+    cursor: pointer;
+    background-repeat: no-repeat;
+}
+li{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    margin-bottom: 4px;
+}
+ul{
+    margin-bottom: 32px;
+    padding: 15px;
+    font-family: Arial;
+    font-size: 20px;
+    color: darkgray;
+}
